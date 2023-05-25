@@ -44,7 +44,9 @@ def p4():
 
     img.paste(watermark, (50, 50), watermark)
     img.save("watermarksobaken.png")
-
+    
+import os
+os.mkdir(path = ('new'))
 
 p1()
 p2()
